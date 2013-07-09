@@ -40,22 +40,6 @@ div[data-role="page"] {
 background: #eee !important;
 }
 
-#loginPage  {
- background: transparent url(../img/jordan4.jpg) !important;
-  color:black;
-}
-
-#createAccountpg {
- background: transparent url(../img/jordan5.jpg) !important;
-  color:#FFF;
-}
-
-#dashboard {
- background: transparent url(../img/jordan1.jpg) !important;
-  color:black;	
-}
-
-
 
 embed{
 	max-width: 200px !important;
