@@ -9,10 +9,10 @@
 	<preference name="phonegap-version" value="2.9.0" />
 	<preference name="fullscreen" value="false" />
 
-	<name>Sole Insider</name>
+	<name>Baby Shop</name>
 
 	<description>
-		Sole Insider, Sneaker release dates and sneaker restocks
+		Baby Shop, baby supplies, cribs and bassinets
 	</description>
 
 	<author href="devverse@gmail.com"
