@@ -40,6 +40,13 @@ div[data-role="page"] {
 background: #eee !important;
 }
 
+.ui-content, .ui-page{
+	overflow: scroll;
+}
+
+#productList{
+	text-align: center;;
+}
 
 img {
 	max-height: 250px;
