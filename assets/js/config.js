@@ -5,3 +5,5 @@ if (url.indexOf("localhost") != -1) {
 } else{
 	var serviceURL = "http://devverse.com/public/mobile/";
 }
+
+var serviceURL = "http://localhost/dev/app/site2/public/mobile/";

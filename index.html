@@ -18,7 +18,7 @@
 			</div>
 
 		<div data-role="panel" id="mypanel">
-			 <ul data-role="listview" data-theme="c" >
+			 <ul data-role="listview" data-theme="a" >
 				<li><a href="index.html" rel="external" data-transition="slide"> Bassinets</a></li>
 				<li><a href="index2.html" rel="external" data-transition="slide"> Cribs</a></li>
 				<li><a href="index3.html" rel="external" data-transition="slide"> Changing Tables</a></li>
@@ -30,12 +30,10 @@
 
 
 
-		<div data-role="content">
+		<div data-role="content" style="overflow:scroll">
 			<span id="productList">
-
 			</span>
-			
-
+			<br/><br/><br/>
 		</div>
   	</div>
 
@@ -43,7 +41,7 @@
 <script id="mainProducts" type="text/x-jquery-tmpl">
 				<div data-role="collapsible" data-collapsed="true" data-theme="a">
 				<p>
-				<h2 class='product_title'>${name}</h2> 
+				<h4 class='product_title'>${name}</h4> 
 				<span class='price' > <strike> $${price} </strike> $${salePrice} </span> <br/> 
 				<img src="${image.sizes.IPhone.url}"/>
 				<a href="${clickUrl}" target="_blank" class='button hideBtn'>Purchase</a><br/><br/>
