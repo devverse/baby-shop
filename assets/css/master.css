@@ -33,11 +33,9 @@
 }
 
 .ui-page {
-background: #eee !important;
-}
-
-.ui-page  {
-	background-color: #000 !important;
+	background: #eee !important;
+	overflow: none important!
+	min-height:3000px;
 }
 
 #productList{
