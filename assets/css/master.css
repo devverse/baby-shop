@@ -1,7 +1,3 @@
-div[data-role="page"] {
- /* background: transparent url(../img/noisy_grid.png) !important;
-  color:black;*/
-}
 
 [data-role=page]{height: 100% !important; position:relative !important;}
 [data-role=footer]{bottom:0; position:absolute !important; top: auto !important; width:100%;}
@@ -40,8 +36,8 @@ div[data-role="page"] {
 background: #eee !important;
 }
 
-.ui-content, .ui-page{
-	overflow: scroll;
+.ui-page  {
+	background-color: #000 !important;
 }
 
 #productList{
@@ -51,4 +47,9 @@ background: #eee !important;
 img {
 	max-height: 250px;
 	max-width: 250px
+}
+
+div[data-role="content"],[data-role=content] {
+	overflow: none important!
+	min-height:3000px;
 }
